@@ -54,13 +54,13 @@ def start(key):
 
 
 while 1:
-    key = int(input("kaç haneli link bulsun(4 veya 5 girin ) : "))
+    key = int(input("kaç haneli link bulsun(4 veya 5 girin): "))
 
     if key == 4 or key == 5:
         break
     else:
         print(
-            "lütfen 4 veya 5 girin (önerilen 4 [5 ler geç bulunur ve yeni upload edilenlerdir ]) "
+            "Lütfen 4 veya 5 girin! (Önerilen 4 [5 ler geç bulunur ve yeni upload edilenlerdir.]) "
         )
 
 
